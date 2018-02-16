@@ -1,0 +1,22 @@
+{
+  "name": "callbag-to-pull-stream",
+  "version": "1.0.0",
+  "description": "Convert a pullable callbag source to a pull-stream source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staltz/callbag-to-pull-stream.git"
+  },
+  "main": "readme.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "pull-stream": "3.6.1",
+    "tape": "^4.8.0"
+  }
+}
